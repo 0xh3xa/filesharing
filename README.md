@@ -1,13 +1,18 @@
-## File Sharing (PHP & Java)
+File Sharing (PHP & Java)
+=========================
+[![Java](https://img.shields.io/static/v1?label=language&message=Java&color=green&style=flat)](https://www.oracle.com/java/technologies/javase-downloads.html) [![PHP](https://img.shields.io/static/v1?label=language&message=PHP&color=blue&style=flat)](https://www.php.net/)
 
-File Sharing for uploading a file, delete ,browse, edit and share with the links.
+File Sharing project using PHP & Java for uploading a file, delete, browse, edit and share with the links.
+This similiar to Google docs where two or more clients can write and manage the same file at the same time or any time.
+The client will start with registration and login before doing any operation related to the file.
 
-the project for creating platform like Google docs where two or more clients can write and manage the same file at the same time or any time.
+Technologies
+-------------
+1. Client written in PHP object oriented programming 
+2. Server written in Java socket programming
 
-The Client written in PHP object oriented programming. And the Server written in Java to store and manage files.
-
-
-### How to run ?
+How to run ?
+-------------
 first run the Java server with the cmd with 
 `java -jar server.jar`
 
